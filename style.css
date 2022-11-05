@@ -1,4 +1,6 @@
 div{
+    text-align: left;
+    padding: 10px;
     text-shadow: 5px 4px 3px #999;
     width: 600px;
     height: auto;
