@@ -1,3 +1,6 @@
+.butterfly{
+    clip-path: polygon(50% 30%, 80% 10%, 100% 35%, 84% 60%, 89% 97%, 52% 86%, 9% 97%, 17% 59%, 0% 35%, 20% 10%);
+}
 div{
     box-sizing: 90%;
     text-align: left;
@@ -36,6 +39,7 @@ div{
     position: relative;
     margin: 10px;
     width: 21%;
+    align-self: center;
 }
 .fade-block{
     width: 100%;
@@ -54,12 +58,12 @@ div{
     position: relative;
     display: flex;
     flex-direction: column;
-    min-width: 0;
     background-color: antiquewhite;
-    background-clip: border-box;
     width: 50%;
+    height: auto;
     left: 25%;
     top: 25%;
+    text-align: center;
 }
 input {
     border: 2px solid slateblue;
